@@ -14,24 +14,24 @@
 }
 
 .footer-top{
-    background-color: rgb(10, 7, 48);
-    padding: 20px;
+    background-color: rgb(112, 103, 241);
+    padding: 10px;
 }
 .segment-one h3{
-    font-family: courgette;
+    font-family: poppins;
     letter-spacing: 3px;
     margin: 10px 0;
-    border-left: 3px #c65039 solid;
+    border-left: 3px #0c0807 solid;
     padding-left: 8px;
 }
 .segment-two h2{
     color: #fff;
     font-family: poppins;
-    text-transform: uppercase;
+    
 }
 .segment-two h2::before{
     content: '|';
-    color: #c65039;
+    color: #000000;
     padding-right: 8px;
 }
 .segment-two ul{
@@ -46,20 +46,20 @@
     font-size: 18px;
 }
 .segment-two ul li a{
-    color: #999;
+    color: #fff;
     text-decoration: none;
 }
 .segment-two ul li a:hover{
-    color: orangered;
+    color: rgb(19, 12, 10);
 }
 .segment-three h2{
     color: #fff;
     font-family: poppins;
-    text-transform: uppercase;
+    
 }
 .segment-three h2::before{
     content: '|';
-    color: #c65039;
+    color: #000000;
     padding-right: 8px;
 }
 .segment-three a:hover{
@@ -83,4 +83,19 @@ form{
 .form-container{
 	border-radius: 10px;
 	padding: 30px;
+}
+.height{
+    height: 90%;
+}
+.row{
+    height: 75%;
+}
+
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px  rgba(0,0,0,0.75);
+}
+.icon{
+    color:black;
 }
