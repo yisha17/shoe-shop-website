@@ -16,6 +16,7 @@
 <!-- foundation-rtl.min.css: Compressed CSS with right-to-left reading direction -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-rtl.min.css" integrity="sha256-F+9Ns8Z/1ZISonBbojH743hsmF3x3AlQdJEeD8DhQsE=" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/register.css">
 <title>Register</title>
 </head>
 <body>
@@ -61,30 +62,48 @@
 
 
     <div class="container">
-        <form action="">
-            <div class="form-group">
-                <label for="fname">First Name : </label>
-                <input class="form-control" type="text" name="fname" id="fname">
+        <div class="row">
+          <div class="col-lg-10 col-xl-9 mx-auto">
+            <div class="card card-signin flex-row my-5">
+              <div class="card-img-left d-none d-md-flex">
+                 <!-- Background image for card set in CSS! -->
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Register</h5>
+                <form class="form-signin">
+                  <div class="form-label-group">
+                    <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
+                    <label for="inputUserame">Username</label>
+                  </div>
+    
+                  <div class="form-label-group">
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+                    <label for="inputEmail">Email address</label>
+                  </div>
+                  
+                  <hr>
+    
+                  <div class="form-label-group">
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                    <label for="inputPassword">Password</label>
+                  </div>
+                  
+                  <div class="form-label-group">
+                    <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
+                    <label for="inputConfirmPassword">Confirm password</label>
+                  </div>
+    
+                  <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
+                  <a class="d-block text-center mt-2 small" href="#">Sign In</a>
+                  <hr class="my-4">
+                  <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign up with Google</button>
+                  <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign up with Facebook</button>
+                </form>
+              </div>
             </div>
-            <div class="form-group">
-                <label for="sname">Last Name : </label>
-                <input class="form-control" type="text" name="lname" id="fname">
-            </div>
-            <div class="form-group">
-                <label for="memail">Email : </label>
-                <input class="form-control" type="email" name="memail" id="memail">
-            </div>
-            <div class="form-group">
-                <label for="pass">Password : </label>
-                <input class="form-control" type="password" name="pass" id="pass">
-            </div>
-            <div class="form-group">
-                <label for="pass2">Confirm Password : </label>
-                <input class="form-control" type="password" name="pass2" id="pass2">
-            </div>
-            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-        </form>
-    </div>
+          </div>
+        </div>
+      </div>
 
     <div class="footer-top  text-white dist">
         <div class="container">
