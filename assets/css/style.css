@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Concert+One|Courgette|Poppins|Russo+One|Noto+Serif|El+Messiri|Carter+One|Oswald|Vidaloka&display=swap');
 
 .center{
-    margin-left: 30%;
+    margin-left: 20%;
 }
 .top{
     margin-top: 70px;
@@ -98,4 +98,9 @@ form{
 }
 .icon{
     color:black;
+}
+
+.area{
+    height:auto;
+    width: 100%;
 }
